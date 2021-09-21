@@ -1,0 +1,10 @@
+@tailwind components;
+
+@layer components {
+}
+/* .header__container {
+  background-image: url("../../public/images/HeroOne.jpg");
+  min-height: 80vh;
+  background-position: center center;
+  background-size: cover;
+} */
