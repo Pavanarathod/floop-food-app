@@ -4,6 +4,7 @@ import {
   BadgeCheckIcon,
   MenuAlt1Icon,
   SearchIcon,
+  ShoppingBagIcon,
   XIcon,
 } from "@heroicons/react/solid";
 import HeaderContent from "./HeaderContent";
@@ -37,8 +38,9 @@ const Header = () => {
             )}
           </div>
           <div className="hidden sm:flex items-center space-x-5">
-            <SearchIcon className="h-7 text-yellow-500" />
-            <BadgeCheckIcon className="h-7 text-yellow-500" />
+            <SearchIcon className="h-7 text-yellow-500 cursor-pointer" />
+            <BadgeCheckIcon className="h-7 text-yellow-500 cursor-pointer" />
+            <ShoppingBagIcon className="h-7 text-yellow-500 cursor-pointer" />
           </div>
         </nav>
         {sideBar && <Sidebar />}
