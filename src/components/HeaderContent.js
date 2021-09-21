@@ -19,7 +19,7 @@ const HeaderContent = () => {
           <Button>Expolore Food Menu</Button>
         </div>
       </div>
-      <div className="">
+      <div className="mr-10 mt-5 sm:mr-0 sm:mt-0">
         <div className="sm:grid sm:place-items-end">
           <img src="/images/HeroOne.png" alt="" />
         </div>

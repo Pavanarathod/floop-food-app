@@ -6,7 +6,9 @@ const Services = () => {
     <section>
       <div className="flex flex-col justify-center items-center py-10">
         <p className="text-3xl font-bold text-yellow-400">Features</p>
-        <h1 className="font-semibold text-5xl">Our Awesome Services</h1>
+        <h1 className="font-semibold text-3xl sm:text-5xl">
+          Our Awesome Services
+        </h1>
       </div>
       <div className="px-5 py-16 sm:grid items-center sm:grid-cols-3 sm:gap-20 space-y-3 sm:space-y-0 ">
         {services.map((serv) => (
