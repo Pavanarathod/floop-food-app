@@ -2,7 +2,7 @@ import Button from "./Button";
 
 const Review = () => {
   return (
-    <section className="sm:grid sm:grid-cols-2 sm:items-center bg-[#fffbf5] pt-10 pb-16">
+    <section className="sm:grid sm:grid-cols-2 sm:items-center pt-10 pb-16">
       <div className="px-5 py-5 lg:w-[35rem]">
         <div className="space-y-5">
           <p className="font-bold text-yellow-400 text-2xl">Testimonial</p>

@@ -10,7 +10,7 @@ const Services = () => {
           Our Awesome Services
         </h1>
       </div>
-      <div className="px-5 py-16 sm:grid items-center sm:grid-cols-3 sm:gap-20 space-y-3 sm:space-y-0 ">
+      <div className="px-5 py-16 sm:grid items-center sm:grid-cols-3 sm:gap-20 space-y-10 sm:space-y-0 ">
         {services.map((serv) => (
           <div key={serv.id} className="flex flex-col items-center">
             <div>

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import About from "../components/About";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import MainLayout from "../components/MainLayout";
 import Order from "../components/Order";
@@ -24,6 +25,7 @@ export default function Home() {
       <MainLayout>
         <Review />
       </MainLayout>
+      <Footer />
     </div>
   );
 }
